@@ -1,0 +1,27 @@
+JAVA
+object oriented, print(), System.out.println()
+int x,y,z
+x,y,z = 50
+'a'
+""
+System.out.printlin("Hello Patrick!"; it goes into the next line.
+System.out.print("YO!"); it stays on the same line
+
+
+System.out.print(formatString, data)
+String name = "Patrick";
+System.out.printf(%n it will take you to next line, "Hello there, %s nice to see you %n", name);
+sout
+
+Long n = 232323;
+System.outprintf("%d%n", n);
+
+double pi = Math.PI;
+System.out.printf("%.3f%n" , pi);
+
+
+OUTPUT
+the scanner class, getting input from the console
+each entry the user makes is called a token
+import java.util.Scanner; IDEs usually handle import statements for us
+
