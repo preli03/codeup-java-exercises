@@ -11,10 +11,10 @@ public class StringExercise {
         String output4 = "I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslash\\\\\\!";
         System.out.println(output4);
     }*/
-public class Bob {
+public static class Bob {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bob : Hey Im Bob. Whats up?");
+        System.out.println("Bob: Hey Im Bob. Whats up?");
         String userInput = scanner.nextLine();
 
         if (userInput.endsWith("?")) {
