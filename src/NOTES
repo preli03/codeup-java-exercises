@@ -25,3 +25,6 @@ the scanner class, getting input from the console
 each entry the user makes is called a token
 import java.util.Scanner; IDEs usually handle import statements for us
 
+
+Methods JAVA
+
