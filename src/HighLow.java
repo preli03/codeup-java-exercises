@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class HighLow {
@@ -13,3 +14,4 @@ public class HighLow {
             return (int) (Math.random() * dieSides);
     }
 }
+*/
