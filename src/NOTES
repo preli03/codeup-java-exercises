@@ -26,5 +26,5 @@ each entry the user makes is called a token
 import java.util.Scanner; IDEs usually handle import statements for us
 
 
-Methods JAVA
+Methods, Objects, and Classes in JAVA
 
