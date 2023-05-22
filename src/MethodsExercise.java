@@ -1,9 +1,13 @@
 
 import java.util.Scanner;
 
+import static java.lang.Integer.getInteger;
+
 public class MethodsExercise {
     public static void main(String[] args) {
-
+/*
+rollSomeDice();
+*/
 //#1
       /*  int additionResult = addition(max, min);
         int subtractionResult = subtraction(max, min);
@@ -65,9 +69,7 @@ public class MethodsExercise {
 
     }*/
 
-
-        //#3
-        System.out.print("Enter a number between 1 and 10: ");
+       /* System.out.print("Enter a number between 1 and 10: ");
         int userInput = getInteger(1, 10);
         System.out.println("Valid input: " + userInput);
     }
@@ -90,5 +92,36 @@ public class MethodsExercise {
 
         return userInput;
     }
+
+
+    public static long calculateFactorial(int number) {
+        long factorial = 1;
+        for (int i = 2; i <= number; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }*/
+
 }
+
+   /* private static void rollSomeDice() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of sides for die: ");
+    int dieSides = getInteger(String.valueOf(4),20);
+
+        input.nextLine();
+
+        System.out.println("Press enter to roll some dice");
+        input.nextLine();
+
+        int result = rollADie(dieSides);
+        System.out.println("You rolled a " + result);
+
+    }
+    private static int rollADie(int dieSides){
+        int result = (int) Math.random() * dieSides);
+return result;
+    }*/
+    }
+
 
