@@ -17,7 +17,6 @@ public class Person {
         this.name = name;
     }
 
-
     // print a message to the console using the persons name
     public void sayHello() {
         System.out.println("Hello, " + name + "!");
@@ -28,4 +27,7 @@ public class Person {
         person.setName("Codeup Class");
         person.sayHello();
     }
+
+
 }
+
