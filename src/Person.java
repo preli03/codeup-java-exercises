@@ -22,10 +22,10 @@ public class Person {
         System.out.println("Hello, " + name + "!");
     }
     public static void main(String[] args) {
-        Person person = new Person("Patricio M.");
-        System.out.println("Name: " + person.getName());
-        person.setName("Codeup Class");
-        person.sayHello();
+        Person patricio = new Person("Patricio M.");
+        System.out.println("Name: " + patricio.getName());
+        patricio.setName("Codeup Class");
+        patricio.sayHello();
     }
 
 
