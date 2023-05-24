@@ -1,4 +1,3 @@
-/*
 package movies;
 
 public class MoviesArray {
@@ -107,4 +106,3 @@ public class MoviesArray {
         };
     }
 }
-*/
