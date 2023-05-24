@@ -4,7 +4,7 @@ import static movies.MoviesArray.findAll;
 
 public class MoviesApplication {
     public static void main(String[] args){
-        public Movie[] movielist = findAll();
+        public static Movie[] movielist = findAll();
         Input in = new Input();
 
 
