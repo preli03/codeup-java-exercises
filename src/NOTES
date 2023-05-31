@@ -68,5 +68,9 @@ what is an abstract class? and Interfaces
 Collections
 Exceptions Error Handling
 if we run a program we can create an exception,
+Try- Catch, its an optional block that will always run, block scope
+will not compile unless these are handled,
+Custom Exceptions
+getIndentendtationPreference()
 
 
