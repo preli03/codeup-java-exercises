@@ -1,6 +1,6 @@
 package shapes;
 
-public class Square extends rectangle {
+public class Square extends Quadlilateral {
 
 
     @Override
@@ -11,8 +11,6 @@ public class Square extends rectangle {
 
     @Override
     public void setWidth(double width) {
-        super.setWidth(width);
-        super.setLength(width);
     }
 
     @Override
@@ -26,6 +24,6 @@ public class Square extends rectangle {
         return Math.pow(side, 2);
     }
     public Square(double side) {
-        super(side, side);
+        super();
     }
 }

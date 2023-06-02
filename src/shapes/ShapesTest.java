@@ -1,30 +1,18 @@
 package shapes;
 
+import java.awt.*;
+
 public class ShapesTest {
-    public static void main(String[] args){
-        rectangle venue = new rectangle(20, 30) {
-            /*   @Override
-               public double getPerimeter() {
-                   return 0;
-               }
+            public static void main(String[] args) {
+                Measurable myShape;
 
-               @Override
-               public double getArea() {
-                   return 0;
-               }
-           };
-           System.out.println("rectangle venue");
-           System.out.println("Venue Perimeter: = " + venue.getPerimeter());
-           System.out.println("Area: "+ venue.getArea());
+                myShape = (Measurable) new Rectangle(4, 5);
+                System.out.println("Rectangle box1 perimeter: " + myShape.getPerimeter());
+                System.out.println("Rectangle box1 area: " + myShape.getArea());
 
-           rectangle venue2 = new Square(60);
-           System.out.println("rectangle venue2");
-           System.out.println("Venue2 Perimeter: " + venue2.getPerimeter());
-           System.out.println("Venue2 Area:" + venue2.getArea());
+                myShape = (Measurable) new Square(5);
+                System.out.println("Square box2 perimeter: " + myShape.getPerimeter());
+                System.out.println("Square box2 area: " + myShape.getArea());
+            }
 
-
-       }*/
-            Measurable myShape;
-                myShape = new rectangle() {}
-        }
 }

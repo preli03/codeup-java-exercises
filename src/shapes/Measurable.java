@@ -1,12 +1,10 @@
 package shapes;
 
-public class Measurable {
-    double getPerimeter() {
-        return 0;
-    }
+public interface Measurable {
+    double getPerimeter();
+    double getArea();
 
-    double getArea() {
-        return 0;
-    }
+    void setLength(double length);
 
+    void setWidth(double width);
 }
