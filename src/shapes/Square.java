@@ -1,3 +1,4 @@
+/*
 package shapes;
 
 public class Square extends Quadlilateral {
@@ -26,4 +27,4 @@ public class Square extends Quadlilateral {
     public Square(double side) {
         super();
     }
-}
+}*/
